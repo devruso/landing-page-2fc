@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "https://devruso.github.io/landing-page-2fc/static/css/main.6e4b9f4b.css",
-    "main.js": "https://devruso.github.io/landing-page-2fc/static/js/main.41e1491d.js",
+    "main.js": "https://devruso.github.io/landing-page-2fc/static/js/main.762bee65.js",
     "static/js/787.7479babc.chunk.js": "https://devruso.github.io/landing-page-2fc/static/js/787.7479babc.chunk.js",
     "static/media/bg-lp-2fc-2.png": "https://devruso.github.io/landing-page-2fc/static/media/bg-lp-2fc-2.bd1fd2e79eed624d7d0f.png",
     "static/media/bg-2.png": "https://devruso.github.io/landing-page-2fc/static/media/bg-2.8c0881bb9af3b87c8710.png",
     "static/media/Ativo11.png": "https://devruso.github.io/landing-page-2fc/static/media/Ativo11.ae170904fff5affda967.png",
     "index.html": "https://devruso.github.io/landing-page-2fc/index.html",
     "main.6e4b9f4b.css.map": "https://devruso.github.io/landing-page-2fc/static/css/main.6e4b9f4b.css.map",
-    "main.41e1491d.js.map": "https://devruso.github.io/landing-page-2fc/static/js/main.41e1491d.js.map",
+    "main.762bee65.js.map": "https://devruso.github.io/landing-page-2fc/static/js/main.762bee65.js.map",
     "787.7479babc.chunk.js.map": "https://devruso.github.io/landing-page-2fc/static/js/787.7479babc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e4b9f4b.css",
-    "static/js/main.41e1491d.js"
+    "static/js/main.762bee65.js"
   ]
 }
