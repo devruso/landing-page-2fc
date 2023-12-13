@@ -1,4 +1,4 @@
-import bg from "../assets/bg-2.png";
+import bg from "../assets/HeroImage.png";
 
 export default function Contato(): JSX.Element {
   return (
