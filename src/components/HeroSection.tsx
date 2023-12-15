@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
 
       {/* Imagem de fundo alternativa para telas menores */}
       <section className="md:hidden bg-cover bg-center w-full h-[528px] -z-10" style={{ backgroundImage: `url(${whoWeAre2})` }}>
-        <div className="text-5xl pt-24  md:pt-6 text-left mb-2 text-vinho2 px-4">
+        <div className="text-5xl pt-12  md:pt-6 text-left mb-2 text-vinho2 px-4">
           Duas fortes <b> conexões </b> pensando na contabilidade do <b> seu negócio </b>
         </div>
       </section>
