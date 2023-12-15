@@ -24,10 +24,10 @@ const Header: React.FC = () => {
             <Link to="#quem-somos" className='pr-2'>SOBRE NÓS</Link>
             <Link to="#solucoes" className='pr-2'>SOLUÇÕES</Link>
             <Link to="#contato">CONTATO</Link>
-            <div className='flex h-16 justify-center items-center w-2/5'>
-          <img src={icon2} alt='icone de pessoa' className='text-pistache' />
-          <button className='bg-vinho px-4 h-12 rounded-md ml-3 font-bold text-pistache'>Área do cliente</button>  
-        </div>
+            <div className='flex h-16 -ml-7 justify-center items-center w-2/5'>
+              <img src={icon2} alt='icone de pessoa' className='text-pistache' />
+              <button className='bg-vinho px-4 h-10 rounded-md ml-3 font-bold text-pistache'>Área do cliente</button>  
+            </div>
           </nav>
         </div>
       </div>
@@ -35,18 +35,18 @@ const Header: React.FC = () => {
       {/* Header para telas pequenas (mobile) */}
       <div className="lg:hidden font-semibold">
         {/* Barra superior */}
-        <div className='flex w-full bg-vinho h-16 justify-center items-center'>
+        <div className='flex w-full bg-vinho h-20 justify-center items-center'>
           <img src={icon} alt='icone de pessoa' className='ícone de perfil' />
-          <button className='bg-pistache w-3/6 text-lg h-12 rounded-md ml-6 font-bold text-vinho2'>Área do cliente</button>  
+          <button className='bg-pistache w-3/6 text-xl h-14 rounded-md ml-6 font-bold text-vinho2'>Área do cliente</button>  
         </div>
         <div className="flex justify-between items-center">
-          <Link to="#home"><img src={logo} className='w-8/12 ml-4 mt-4' alt="logo 2FC" /></Link>
+          <Link to="#home"><img src={logo} className='w-8/12 ml-4 mt-4 pb-2' alt="logo 2FC" /></Link>
           <button>
             
              {isMobileMenuOpen ? <IoMdClose onClick={toggleMobileMenu}
             className="text-vinho focus:outline-none lg:hidden w-12 h-12"
           />
-             : <IoIosMenu onClick={toggleMobileMenu} className="text-vinho focus:outline-none lg:hidden w-12 h-12"/>
+             : <IoIosMenu onClick={toggleMobileMenu} className="text-vinho focus:outline-none lg:hidden w-12 h-12 mr-2"/>
   }
           </button>
         </div>
