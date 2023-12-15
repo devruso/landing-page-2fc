@@ -41,9 +41,9 @@ const Header: React.FC = () => {
             <Link to="/sobre" className='pr-2'>SOBRE NÓS</Link>
             <Link to="#solucoes" onClick={(e:any) => scrollToSection(e, { to: 'solucoes' })} className='pr-2'>SOLUÇÕES</Link>
             <Link to="#contato" onClick={(e:any) => scrollToSection(e, { to: 'contato' })} >CONTATO</Link>
-            <div className='flex h-16 -ml-7 justify-center items-center w-2/5'>
+            <div className='flex h-16 -ml-7 justify-center items-center w-2/5 '>
               <img src={icon2} alt='icone de pessoa' className='text-pistache' />
-              <Link to="https://onvio.com.br"><button className='bg-vinho px-4 h-10 rounded-md ml-3 font-bold text-pistache'>Área do cliente</button> </Link> 
+              <Link to="https://onvio.com.br"><button className='bg-vinho hover:bg-vinho3  px-4 h-10 rounded-md ml-3 font-bold text-pistache'>Área do cliente</button> </Link> 
             </div>
           </nav>
         </div>
