@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
         </div>
       </section>
 
-      <div className="text-center flex justify-center -mt-8  z-10 flex-col md:flex-row">
+      <div className="text-center flex justify-center items-center -mt-8  z-10 flex-col md:flex-row">
         {/* Conteúdo da primeira div */}
         <div className='max-w-sm flex flex-col h-80 md:h-96 mx-4 mb-4 md:mb-0  shadow-xl text-vinho2 bg-pistache pt-2 p-2 rounded'>
           <FaHandshake className="text-5xl mx-auto mb-4" />
