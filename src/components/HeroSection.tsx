@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
 
       <div className="text-center flex justify-center -mt-8  z-10 flex-col md:flex-row">
         {/* Conteúdo da primeira div */}
-        <div className='max-w-sm flex flex-col h-80 md:h-96 mx-4 mb-4 md:mb-0 bg-opacity-95 shadow-xl text-vinho2 bg-pistache pt-2 p-2 rounded'>
+        <div className='max-w-sm flex flex-col h-80 md:h-96 mx-4 mb-4 md:mb-0  shadow-xl text-vinho2 bg-pistache pt-2 p-2 rounded'>
           <FaHandshake className="text-5xl mx-auto mb-4" />
           <h3 className="text-4xl font-semibold mb-2">Proposta</h3>
           <p className="my-auto text-xl w-4/5 mx-auto text-vinho">
@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* Conteúdo da segunda div */}
-        <div className='max-w-sm flex flex-col mx-4 h-80 md:h-96 bg-opacity-95 shadow-xl text-vinho2 bg-pistache pt-2 p-2 rounded'>
+        <div className='max-w-sm flex flex-col mx-4 h-80 md:h-96 shadow-xl text-vinho2 bg-pistache pt-2 p-2 rounded'>
           <FaBalanceScale className="text-5xl mx-auto mb-4" />
           <h3 className="text-4xl font-semibold  mb-2">Valores</h3>
           <p className='text-xl my-auto w-4/5 mx-auto pb-20 text-vinho'>
