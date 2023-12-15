@@ -2,7 +2,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contato(): JSX.Element {
   return (
-    <section className="w-full bg-center flex flex-col py-8 lg:pb-16 md:items-center text-vinho">
+    <section id="contato" className="w-full bg-center flex flex-col py-8 lg:pb-16 md:items-center text-vinho">
       <h1 className="text-4xl md:text-5xl bg-vinho text-center h-16 pt-2 md:pt-1 text-pistache mb-4 w-full">Entre em Contato</h1>
 
       <div className="md:w-3/6 justify-between text-left flex flex-col md:flex-row mt-8 ml-12 md:ml-0">
