@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/NEWLOGO.svg';
 import icon from "../assets/personIcon.svg"
 import icon2 from "../assets/personIcon2.svg"
@@ -9,15 +9,19 @@ import { IoIosMenu } from "react-icons/io";
 const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const location = useLocation();
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  interface ScrollProps {
-    to: string;
-  }
-  
-  function scrollToSection(event: React.MouseEvent<HTMLAnchorElement>, { to }: ScrollProps): void {
+  useEffect(() => {
+    // Fecha o menu móvel ao mudar de página
+    setIsMobileMenuOpen(false);
+  }, [location.pathname]);
+
+
+  function scrollToSection(event: React.MouseEvent<HTMLAnchorElement>, { to }: any): void {
     event.preventDefault();
   
     const section = document.getElementById(to);
@@ -27,9 +31,10 @@ const Header: React.FC = () => {
         top: section.offsetTop,
         behavior: 'smooth',
       });
+  
+      setIsMobileMenuOpen(false);
     }
   }
-
   return (
     <header className="text-vinho">
       {/* Header para telas grandes (desktop) */}
