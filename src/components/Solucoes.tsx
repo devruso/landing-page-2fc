@@ -87,7 +87,7 @@ export default function Solucoes(): JSX.Element {
         <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6 md:items-start">
           <IoDocumentTextOutline className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
-            <h3 className="text-3xl  mb-2">Legalização</h3>
+            <h3 className="text-3xl  mb-2 md:mb-3 ">Legalização</h3>
             <ul className="list-disc ml-4 space-y-2">
               <li className="font-light my-1">Emissão de certidões</li>
               <li className="font-light my-1">Regularização fiscal  para liberação de alvarás</li>
