@@ -1,10 +1,9 @@
-import React from 'react';
 import { GrDocumentPerformance } from "react-icons/gr";
 import { CgCalculator } from "react-icons/cg";
-import { SlGraph } from "react-icons/sl";
 import { GrGroup } from "react-icons/gr";
 import { BsGraphUp } from "react-icons/bs";
 import { GoPerson } from "react-icons/go";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 export default function Solucoes(): JSX.Element {
   return (
@@ -12,8 +11,8 @@ export default function Solucoes(): JSX.Element {
       <h2 className="text-5xl font-medium tracking-wide  mb-6 text-center">Soluções</h2>
       <div className="flex max-w-7xl p-2 justify-center flex-wrap mx-auto">
         {/* Assessoria Contábil */}
-        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <CgCalculator className="text-5xl bg-pistache rounded mr-4 md:w-1/3 w-1/4 mt-3 p-1" />
+        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6  md:items-start">
+          <CgCalculator className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Assessoria Contábil</h3>
             <ul className="list-disc ml-4 space-y-2">
@@ -27,8 +26,8 @@ export default function Solucoes(): JSX.Element {
         </div>
 
         {/* Assessoria Fiscal/Tributária */}
-        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <BsGraphUp className="text-5xl bg-pistache rounded mr-4 w-1/3 mt-3 p-1" />
+        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6  md:items-start">
+          <BsGraphUp className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Assessoria Fiscal/ Tributária</h3>
             <ul className="list-disc ml-4 space-y-2">
@@ -42,8 +41,8 @@ export default function Solucoes(): JSX.Element {
         </div>
 
          {/* Assessoria Trabalhista */}
-         <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <GrDocumentPerformance className="text-5xl bg-pistache rounded mr-4 w-1/3 mt-3 p-1" />
+         <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6 md:items-start">
+          <GrDocumentPerformance className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Assessoria Trabalhista</h3>
             <ul className="list-disc ml-4 space-y-2">
@@ -56,8 +55,8 @@ export default function Solucoes(): JSX.Element {
         </div>
 
         {/* Assessoria Societária */}
-        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <GrGroup className="text-5xl bg-pistache rounded mr-4 w-1/3 mt-3 p-1" />
+        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6 md:items-start">
+          <GrGroup className="text-5xl bg-pistache rounded mr-4 w-16 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Assessoria Societária</h3>
             <ul className="list-disc ml-4 space-y-2">
@@ -71,8 +70,8 @@ export default function Solucoes(): JSX.Element {
         </div>
 
        {/* Assessoria Pessoa Física */}
-       <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <GoPerson className="text-5xl bg-pistache rounded mr-4 w-1/3 mt-3 p-1" />
+       <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6 md:items-start">
+          <GoPerson className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Assessoria Pessoa Física</h3>
             <ul className="list-disc ml-4 space-y-2">
@@ -85,8 +84,8 @@ export default function Solucoes(): JSX.Element {
         </div>
 
         {/* Legalização */}
-        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex flex-col md:flex-row w-5/6 items-center md:items-start">
-          <SlGraph className="text-5xl bg-pistache rounded mr-4 w-1/3 mt-3 p-1" />
+        <div className="bg-white md:w-3/12 p-2 rounded mb-4 mr-4 flex md:flex-row w-5/6 md:items-start">
+          <IoDocumentTextOutline className="text-5xl bg-pistache rounded mr-4 w-20 h-12 mt-6 md:mt-3 p-1" />
           <div className='mt-3 md:mt-2'>
             <h3 className="text-3xl  mb-2">Legalização</h3>
             <ul className="list-disc ml-4 space-y-2">
