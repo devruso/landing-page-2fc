@@ -6,9 +6,9 @@ import About from './pages/About';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
     <Routes >
-      <Route path="/" element={<Root />} >
+      <Route  path="/" element={<Root />} >
       <Route index element={<Home/>}/> 
       <Route path="/sobre" element={<About/>}/> 
       </Route>
